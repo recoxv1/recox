@@ -373,7 +373,7 @@ then
 	    	then
 	    		echo -e "${RED}[!] ${LIGHTGRAY}Connection Refused..${RESTORE}"
 	    	else
-	    		cat /tmp/samhax/diglookup
+	    		cat ${AXFR_LOC}
 	    	fi
 	    fi
 	  done < ${inp}
